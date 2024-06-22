@@ -1,0 +1,17 @@
+﻿enum GameState {
+	Running,
+	Ended 
+}
+
+struct GameController {
+	GameState State;
+	FP GameTimer;
+}
+
+global {
+	GameController GameController;
+}
+
+signal OnGameEnded(GameController* gameController);
+
+synced event OnGameEnded {}

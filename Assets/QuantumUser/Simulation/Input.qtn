@@ -1,0 +1,9 @@
+﻿// Check Input.User.cs for it's (de)coding
+input {
+	button Fire;
+	button Jump;
+	button CastSkill;
+	button ChangeWeapon;
+	SByte Movement;
+	Byte EncodedAimDirection;
+}

@@ -1,0 +1,11 @@
+component PlayerLink{
+	player_ref PlayerRef;
+}
+component Score {
+	Int32 Kills;
+	Int32 Deaths;
+}
+
+event OnPlayerSelectedCharacter{
+    player_ref PlayerRef;
+}

@@ -1,0 +1,10 @@
+component Status {
+	FP CurrentHealth;
+	Boolean IsDead;
+	FP RespawnTimer;
+	FP RegenTimer;
+	FP InvincibleTimer;
+	Int32 DisconnectedTicks;
+
+	asset_ref<StatusData> StatusData;
+}

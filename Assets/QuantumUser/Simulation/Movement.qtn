@@ -1,0 +1,11 @@
+component Movement {
+	FP GroundedFramesCount;
+	FP UngroundedFramesCount;
+	Boolean VirtualGrounded;
+	Boolean PrevGrounded;
+	Boolean CanDoubleJump;
+	Boolean IsFacingRight;
+	FP JumpDelayTimer;
+
+	asset_ref<MovementData> MovementData;
+}

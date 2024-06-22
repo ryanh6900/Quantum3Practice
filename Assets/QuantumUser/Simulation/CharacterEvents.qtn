@@ -1,0 +1,26 @@
+﻿abstract event RobotEvent {
+	entity_ref Robot; 	
+}
+
+event OnRobotTakeDamage : RobotEvent {
+	FP Damage;
+	entity_ref Source; 	
+}
+
+event OnRobotBlink : RobotEvent {}
+
+synced event OnRobotDeath : RobotEvent {
+	entity_ref Killer; 	
+}
+
+event OnRobotCreated : RobotEvent {}
+event OnRobotDoubleJump : RobotEvent {}
+event OnRobotGrounded : RobotEvent {}
+event OnRobotJump : RobotEvent {}
+event OnRobotRespawn : RobotEvent {}
+event OnRobotChangeWeapon : RobotEvent {}
+
+
+
+
+
